@@ -1,5 +1,5 @@
 Installation:
-    git cloe git://github.om/pandaman2123/pandavim.git
+    git clone git://github.om/pandaman2123/pandavim.git
 
 Create symlinks:
     ln -s ~/.vim/vimrc ~/.vimrc
@@ -9,4 +9,3 @@ switch to the ~/.vim directory and fetch submodules
     cd ~/.vim
     git submodule init
     git submodule update
-
