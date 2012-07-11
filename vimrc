@@ -1,4 +1,13 @@
 " "------------------------------------------------------------
+" " IMPORTANT File Management {{{1
+"
+" for Pathogen plugin
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
+
+
+" "------------------------------------------------------------
 " " Features {{{1
 " "
 " " These options and commands enable some very useful features in Vim, that
@@ -15,7 +24,7 @@ syntax on "Enable syntax highlighting
 " "
 " " These are highly recommended options.
 
-"set hidden "switch from unsabed buffer without saving, undo history for mult files
+set hidden "switch from unsabed buffer without saving, undo history for mult files
 set confirm "??
 set autowriteall "??
 set wildmenu "Better cmd line completion
@@ -48,8 +57,8 @@ set cmdheight=2 "set cmd window height to 2 lines to aboid awk press <enter> to 
 set number "display line numbers on left
 
 "highlight the line numbers
-:highlight LineNr ctermfg=lightblue
-:highlight LineNr ctermbg=darkblue
+:highlight LineNr ctermfg=blue
+:highlight LineNr ctermbg=magenta
 
 set notimeout ttimeout ttimeoutlen=200 "quickly time out keybodes, never on mappings
 set pastetoggle=<F11> "use F11 to toggle between paste and nopaste
@@ -63,15 +72,14 @@ set pastetoggle=<F11> "use F11 to toggle between paste and nopaste
 "
 " " Indentation settings for using 2 spaces instead of tabs.
 " " Do not change 'tabstop' from its default value of 8 with this setup.
-set shiftwidth=4
-set softtabstop=4
-set expandtab
-"
-"
- " Indentation settings for using hard tabs for indent. Display tabs as
+set ts=2 sts=2 sw=2 expandtab
+
+
+
+" Indentation settings for using hard tabs for indent. Display tabs as
 " " two characters wide.
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 
 
 
