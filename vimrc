@@ -5,8 +5,8 @@
 filetype off
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
-
 filetype on
+
 
 
 " "------------------------------------------------------------
@@ -61,7 +61,7 @@ set scrolloff=4
 
 "highlight the line numbers
 :highlight LineNr ctermfg=blue
-:highlight LineNr ctermbg=magenta
+":highlight LineNr ctermbg=magenta
 
 set notimeout ttimeout ttimeoutlen=200 "quickly time out keybodes, never on mappings
 set pastetoggle=<F11> "use F11 to toggle between paste and nopaste
@@ -76,7 +76,6 @@ set pastetoggle=<F11> "use F11 to toggle between paste and nopaste
 " " Indentation settings for using 2 spaces instead of tabs.
 " " Do not change 'tabstop' from its default value of 8 with this setup.
 set ts=2 sts=2 sw=2 expandtab
-set autoindent "new line has same indent as current line
 
 
 
