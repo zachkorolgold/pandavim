@@ -91,7 +91,8 @@ set tabstop=2
 " "
 " " Useful mappings
 "
-let mapleader=","  "change mapleader from \ to ,
+let mapleader=","  "change mapleader from \ to ,    Commented out bc too annoying
+
 "cd to dir containing buffer
 nmap <silent> ,cd :lcd %:h<CR>
 nmap <silent> ,md :!mkdir -p %:p:h<CR>
