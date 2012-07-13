@@ -5,6 +5,7 @@
 filetype off
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
+call pathogen#infect()
 filetype on
 
 
@@ -136,8 +137,13 @@ cno kj <C-C>
 "
 "
 " colorscheme!
+"set t_Co=16
+"syntax enable
 
-
+let g:solaraized_termcolors=256
+set background=dark
+colorscheme solarized
+set t_Co=16
 
 
 
