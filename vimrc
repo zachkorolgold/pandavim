@@ -140,9 +140,9 @@ cno kj <C-C>
 "set t_Co=16
 "syntax enable
 
-let g:solaraized_termcolors=256
+"let g:solaraized_termcolors=256
 "set background=dark
-colorscheme solarized
+colorscheme xoria256
 "set t_Co=16
 "let g:solarized_termtrans=1
 
