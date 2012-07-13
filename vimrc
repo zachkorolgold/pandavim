@@ -141,9 +141,9 @@ cno kj <C-C>
 "syntax enable
 
 let g:solaraized_termcolors=256
-set background=dark
+"set background=dark
 colorscheme solarized
-set t_Co=16
-
+"set t_Co=16
+"let g:solarized_termtrans=1
 
 

@@ -22,6 +22,3 @@
 [submodule "bundle/tslime"]
 	path = bundle/tslime
 	url = https://github.com/xaviershay/tslime.vim.git
-[submodule "bundle/solarized"]
-	path = bundle/solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
