@@ -137,7 +137,7 @@ cno kj <C-C>
 "
 "
 " colorscheme!
-"set t_Co=16
+"set t_Co=256
 "syntax enable
 
 "let g:solaraized_termcolors=256
@@ -147,3 +147,7 @@ colorscheme xoria256
 "let g:solarized_termtrans=1
 
 
+
+" "----------------------------------------------------------
+" Filetypes {{{1
+au Bufread,BufNewFile *.as set filetype=actionscript

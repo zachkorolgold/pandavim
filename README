@@ -1,5 +1,5 @@
 Installation:
-    git clone git://github.om/pandaman2123/pandavim.git
+    git clone git://github.om/pandaman2123/pandavim.git ~/.vim
 
 Create symlinks:
     ln -s ~/.vim/vimrc ~/.vimrc
