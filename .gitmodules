@@ -22,3 +22,6 @@
 [submodule "bundle/tslime"]
 	path = bundle/tslime
 	url = https://github.com/xaviershay/tslime.vim.git
+[submodule "bundle/actionscript"]
+	path = bundle/actionscript
+	url = http://github.com/cairo140/actionscript.vim.git
