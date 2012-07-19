@@ -25,3 +25,24 @@
 [submodule "bundle/actionscript"]
 	path = bundle/actionscript
 	url = http://github.com/cairo140/actionscript.vim.git
+[submodule "bundle/zencoding"]
+	path = bundle/zencoding
+	url = http://github.com/mattn/zencoding-vim.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "bundle/minibufexplorer"]
+	path = bundle/minibufexplorer
+	url = https://github.com/fholgado/minibufexpl.vim.git
+[submodule "autoproto.vim"]
+	path = autoproto.vim
+	url = https://github.com/vim-scripts/autoproto.vim.git
+[submodule "bundle/autoproto"]
+	path = bundle/autoproto
+	url = https://github.com/vim-scripts/autoproto.vim.git
+[submodule "bundle/clang_complete"]
+	path = bundle/clang_complete
+	url = git://github.com/Rip-Rip/clang_complete.git
+[submodule "bundle/clang"]
+	path = bundle/clang
+	url = https://github.com/Rip-Rip/clang_complete.git

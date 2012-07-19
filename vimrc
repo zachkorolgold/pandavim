@@ -59,7 +59,7 @@ set mouse=a "use mouse in all modes
 set cmdheight=2 "set cmd window height to 2 lines to aboid awk press <enter> to continue
 set number "display line numbers on left
 set mousehide "hide mouse while typing
-set scrolloff=4
+set scrolloff=3
 
 "highlight the line numbers
 :highlight LineNr ctermfg=blue
@@ -77,14 +77,13 @@ set pastetoggle=<F11> "use F11 to toggle between paste and nopaste
 "
 " " Indentation settings for using 2 spaces instead of tabs.
 " " Do not change 'tabstop' from its default value of 8 with this setup.
-set ts=2 sts=2 sw=2 expandtab
+set ts=4 sts=4 sw=4 expandtab
 
 
 
 " Indentation settings for using hard tabs for indent. Display tabs as
 " " two characters wide.
-set shiftwidth=2
-set tabstop=2
+"set shiftwidth=4
 
 
 
@@ -125,6 +124,10 @@ cno jk <C-C>
 ino kj <Esc>
 cno kj <C-C>
 
+
+
+nmap <F9> :NERDTreeToggle<CR>
+
 "
 "
 " "------------------------------------------------------------
@@ -145,9 +148,3 @@ cno kj <C-C>
 colorscheme xoria256
 "set t_Co=16
 "let g:solarized_termtrans=1
-
-
-
-" "----------------------------------------------------------
-" Filetypes {{{1
-au Bufread,BufNewFile *.as set filetype=actionscript
