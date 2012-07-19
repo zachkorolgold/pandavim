@@ -134,6 +134,8 @@ nmap <F9> :NERDTreeToggle<CR>
 "  PLUGIN-SPECIFIC {{{1
 " 
 
+"ctags
+set tags+=/usr/include/tags
 
 " "----------------------------------------------------------
 " GUI {{{1
