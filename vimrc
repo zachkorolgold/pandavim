@@ -54,7 +54,9 @@ set ruler "display cursor location at bottom of screen
 set laststatus=2 "Alyways display status line, even if only one window is displayed
 set visualbell "visual bell instead of beeping
 set t_vb= "reset terminal code for visual bell. unset -> no bell
+
 set t_Co=256
+
 set mouse=a "use mouse in all modes
 set cmdheight=2 "set cmd window height to 2 lines to aboid awk press <enter> to continue
 set number "display line numbers on left
@@ -143,10 +145,11 @@ set tags+=/usr/include/tags
 "
 " colorscheme!
 "set t_Co=256
-"syntax enable
+syntax enable
+set background=dark
+colorscheme solarized
 
 "let g:solaraized_termcolors=256
-"set background=dark
-colorscheme xoria256
+"colorscheme xoria256
 "set t_Co=16
 "let g:solarized_termtrans=1
