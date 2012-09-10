@@ -29,7 +29,7 @@ syntax on "Enable syntax highlighting
 
 set hidden "switch from unsabed buffer without saving, undo history for mult files
 set confirm "??
-set autowriteall "??
+#set autowriteall "??
 set wildmenu "Better cmd line completion
 set showcmd "Show partial cmds in th elast line of screen
 set hlsearch "highlights searches. turn off highlighiting with <C-L>
@@ -79,7 +79,7 @@ set pastetoggle=<F11> "use F11 to toggle between paste and nopaste
 "
 " " Indentation settings for using 2 spaces instead of tabs.
 " " Do not change 'tabstop' from its default value of 8 with this setup.
-set ts=4 sts=4 sw=4 expandtab
+set ts=4 sts=4 sw=4 expandtab 
 
 
 
