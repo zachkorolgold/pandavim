@@ -29,7 +29,7 @@ syntax on "Enable syntax highlighting
 
 set hidden "switch from unsabed buffer without saving, undo history for mult files
 set confirm "??
-#set autowriteall "??
+" set autowriteall "??
 set wildmenu "Better cmd line completion
 set showcmd "Show partial cmds in th elast line of screen
 set hlsearch "highlights searches. turn off highlighiting with <C-L>
